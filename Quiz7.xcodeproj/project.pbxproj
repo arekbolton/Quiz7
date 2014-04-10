@@ -25,6 +25,7 @@
 		25CB6A4E18F596EB0041A7A0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CB6A2918F596EB0041A7A0 /* CoreData.framework */; };
 		25CB6A5618F596EB0041A7A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25CB6A5418F596EB0041A7A0 /* InfoPlist.strings */; };
 		25CB6A5818F596EB0041A7A0 /* Quiz7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB6A5718F596EB0041A7A0 /* Quiz7Tests.m */; };
+		25CB6A6318F597220041A7A0 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB6A6218F597220041A7A0 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		25CB6A5318F596EB0041A7A0 /* Quiz7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz7Tests-Info.plist"; sourceTree = "<group>"; };
 		25CB6A5518F596EB0041A7A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25CB6A5718F596EB0041A7A0 /* Quiz7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz7Tests.m; sourceTree = "<group>"; };
+		25CB6A6118F597220041A7A0 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		25CB6A6218F597220041A7A0 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				25CB6A4118F596EB0041A7A0 /* Q7DetailViewController.m */,
 				25CB6A4318F596EB0041A7A0 /* Images.xcassets */,
 				25CB6A3A18F596EB0041A7A0 /* Quiz7.xcdatamodeld */,
+				25CB6A6118F597220041A7A0 /* Task.h */,
+				25CB6A6218F597220041A7A0 /* Task.m */,
 				25CB6A2C18F596EB0041A7A0 /* Supporting Files */,
 			);
 			path = Quiz7;
@@ -268,6 +273,7 @@
 				25CB6A3C18F596EB0041A7A0 /* Quiz7.xcdatamodeld in Sources */,
 				25CB6A3618F596EB0041A7A0 /* Q7AppDelegate.m in Sources */,
 				25CB6A3F18F596EB0041A7A0 /* Q7MasterViewController.m in Sources */,
+				25CB6A6318F597220041A7A0 /* Task.m in Sources */,
 				25CB6A3218F596EB0041A7A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

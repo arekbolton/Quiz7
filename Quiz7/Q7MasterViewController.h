@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Task.h"
 #import <CoreData/CoreData.h>
 
 @interface Q7MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
