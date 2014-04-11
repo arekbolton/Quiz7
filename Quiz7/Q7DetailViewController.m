@@ -45,6 +45,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [_nameTextField setText: self.detailItem.name];
+    [self.nameTextField setDelegate:self];
     [self configureView];
 }
 
